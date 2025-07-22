@@ -1,0 +1,25 @@
+Description of files in the Data folder
+
+dat0_names.csv/rds
+- Original variable names and question wording, from prep_data.R. 
+
+dat2.csv/rds
+- Final processed dataset, from prep_data.R.
+
+prep_data.R
+- Prepare survey data for analysis. 
+- Inputs: (csv data from each of 3 surveys), zipslist.csv, ZipCodes.shp, 
+  feb_storm_data_zip.rds, mar_storm_data_zip.rds, feb_storm_data_rwis.rds, mar_storm_data_rwis.rds
+- Script: Combine data. Format data for analysis. Add region data and storm event data. 
+- Outputs: dat0 (rds/csv), dat0_names (rds/csv), dat1 (rds/csv), dat2 (rds/csv)
+
+Regions-ZIPs folder
+- ZipCodes.shp: Shapefile of ZIP codes in Utah. 
+- script.R: R script for creating list of ZIP codes in each region. 
+- zipcodes.rds, zipslist.csv, zipslist.docx: Files containing list of ZIP codes in each region. 
+- zipsmap.png: Map showing ZIP codes in each region in Utah. 
+
+Storm Data folder
+- (feb/mar)_storm_data_(rwis/zip).(csv/rds): Processed RWIS data, by RWIS station and ZIP code. 
+- RWIS_UTAH_ZIP_Map.png: Map of RWIS stations in Utah. 
+- storm_data.R: R script for processing storm data and linking to ZIP codes. 

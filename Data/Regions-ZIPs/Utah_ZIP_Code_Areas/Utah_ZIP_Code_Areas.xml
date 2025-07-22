@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>ZipCodes</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This dataset represents an ongoing effort to approximate the geographic extents of 5 digit zip codes. The dataset was produced using a combination of methods and is based on several sets of source data. Methods include: 1) using local zip code polygon data obtained from counties and cities contained within these counties; 2 ) examining the 2000 Census TIGER line file's zip code attributes; and 3) using UGRC address grid quadrant boundaries to assign the zip code to segments within a boundary corresponding to a place location (city, town, places) from the postal service website and address information system (AIS). In addition, UGRC has used the locations of mailing addresses known to have valid zip codes to fine tune this dataset.</abstract>
+            <purpose>Last Update: April 8, 2022
+
+This data was developed to assist in assigning a 5 digit zip code to each street segment and address point in the Utah statewide data set.
+
+The assigned zip codes are used to:
+
+Determine the location to be used for geocoding addresses
+
+Automate the development of data that needs to be aggregated by zip code
+
+This data should not be used to determine the definitive zip code for addressing mail that will be sent through the US Postal Service.  The USPS web site or other official data should be used for this purpose.</purpose>
+        </descript>
+        <spdom>
+            <bounding>
+                <westbc>-114.276422</westbc>
+                <eastbc>-108.899272</eastbc>
+                <northbc>42.034241</northbc>
+                <southbc>36.959971</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Zip Code</themekey>
+                <themekey>Zip5</themekey>
+                <themekey>USPS</themekey>
+                <themekey>Zone</themekey>
+                <themekey>Mail</themekey>
+                <themekey>Geocode</themekey>
+                <themekey>Boundaries</themekey>
+                <themekey>SGID</themekey>
+                <themekey>UGRC</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>The data, including but not limited to geographic data, tabular data, and analytical data, are provided &amp;quot;as is&amp;quot; and &amp;quot;as available&amp;quot;, with no guarantees relating to the availability, completeness, or accuracy of data, and without any express or implied warranties. These data are provided as a public service for informational purposes only. You are solely responsible for obtaining the proper evaluation of a location and associated data by a qualified professional. UGRC reserves the right to change, revise, suspend or discontinue published data and services without notice at any time. Neither UGRC nor the State of Utah are responsible for any misuse or misrepresentation of the data. UGRC and the State of Utah are not obligated to provide you with any maintenance or support. The user assumes the entire risk as to the quality and performance of the data. You agree to hold the State of Utah harmless for any claims, liability, costs, and damages relating to your use of the data. You agree that your sole remedy for any dissatisfaction or claims is to discontinue use of the data.This work is licensed under a Creative Commons Attribution 4.0 International License.</useconst>
+        <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.7.1.11595</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>301</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>ZipCodes</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ZIP5</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>COUNTYNBR</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SYMBOL</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape.STArea()</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape.STLength()</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20220408</metd>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

@@ -1,0 +1,29 @@
+Description of files in the Analysis folder
+
+analysis.R
+- Performs analysis of survey data. 
+- Inputs: dat2.rds
+- Script: Estimates models. Analyzes satisfaction outcomes. Analyzes travel behavior outcomes. 
+- Outputs: models_ {sato, satt, satg, beht, behm, behp} .rds/.xlsx
+
+desc_stat.csv
+- Output table from script desc_stat.R. 
+
+desc_stat.R
+- Calculates descriptive statistics. Creates figures for reporting. 
+- Inputs: dat2.rds, dat0_names.rds
+- Script: Calculates descriptive statistics. Creates and saves figures for reporting. 
+- Outputs: desc_stat.csv, (various png files in Figures folder)
+
+funs_figs.R
+- Contains functions for plotting. 
+- Run from within desc_stat.R
+
+models_b{___}.rds/xlsx
+- Model estimation results for travel behavior analyses, from script analysis.R. 
+
+models_s{___}.rds/xlsx
+- Model estimation results for satsifaction analyses, from script analysis.R. 
+
+Tables.xlsx
+- Tables formatted for the report. 
