@@ -19,6 +19,9 @@ Regions-ZIPs folder
 - zipcodes.rds, zipslist.csv, zipslist.docx: Files containing list of ZIP codes in each region. 
 - zipsmap.png: Map showing ZIP codes in each region in Utah. 
 
+Survey folder
+- UDOT_Snow_PMs_Survey_(1/2/3)_(A,F,BCDE).(docx/pdf/qsf): Files containing the survey questions. 
+
 Storm Data folder
 - (feb/mar)_storm_data_(rwis/zip).(csv/rds): Processed RWIS data, by RWIS station and ZIP code. 
 - RWIS_UTAH_ZIP_Map.png: Map of RWIS stations in Utah. 
