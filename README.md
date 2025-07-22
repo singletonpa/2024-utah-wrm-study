@@ -14,6 +14,8 @@ This repository contains data and scripts associated with the "Developing snow p
 ### Publications
 * Khanal, S., & Singleton, P. A. (forthcoming). *Developing snow performance measures for public information*. Utah Department of Transportation.
 
+[![DOI](https://zenodo.org/badge/1024527789.svg)](https://doi.org/10.5281/zenodo.16336057)
+
 ### Description of files and folders
 * Many of these scripts were written in R. To use, [download R](https://cloud.r-project.org/) and then [download RStudio](https://posit.co/download/rstudio-desktop/#download).
 * **2019-utah-wrm-study.Rproj**: This [RStudio project](https://support.posit.co/hc/en-us/articles/200526207-Using-RStudio-Projects) file allows R users to use relative file paths from this root folder, if R scripts are opened after opening this R project file.
