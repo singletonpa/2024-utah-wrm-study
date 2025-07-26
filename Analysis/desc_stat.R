@@ -213,7 +213,7 @@ plot_barXABC(df, dims=dims2a, colpal="Blues",
 rm(star_labels, df)
 # - SATISFACTION
 plot_bar1(dat$SATISFACTION, dims=dims2a, colpal="steelblue", 
-          lab1=dat_names$NAME2[dat_names$NAME1=="INCHES"], 
+          lab1=dat_names$NAME2[dat_names$NAME1=="SATISFACTION"], 
           save=T, file="3_SAT_SATISFACTION")
 # - LOC_BETTER, LOC_WORSE
 # none
